@@ -12,6 +12,5 @@ import numpy as np.py
 output/
 pandastest.py
 read_image.py
-streamlit.py
 test.csv
 upload/
