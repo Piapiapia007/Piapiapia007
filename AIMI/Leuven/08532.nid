@@ -1,0 +1,1703 @@
+[DataSet]
+Version=2
+GroupCount=2
+Gr0-Name=Scan forward
+Gr0-ID=0
+Gr0-Count=8
+Gr1-Name=Scan backward
+Gr1-ID=0
+Gr1-Count=8
+Gr0-Ch0=DataSet-0:0
+Gr0-Ch1=DataSet-0:1
+Gr0-Ch3=DataSet-0:3
+Gr0-Ch7=DataSet-0:7
+Gr1-Ch0=DataSet-1:0
+Gr1-Ch1=DataSet-1:1
+Gr1-Ch3=DataSet-1:3
+Gr1-Ch7=DataSet-1:7
+SetInfos=DataSet-Info
+InfoSetCount=3
+InfoSet0=DataSetInfos
+InfoSet1=Calibration
+InfoSet2=Parameters
+
+[DataSet-Info]
+-- Scan --=--------
+Image size=0 m
+Scan direction=Up
+Time/Line=200ms
+Points=4 
+Lines=160 
+X-Slope=0 Â°
+Y-Slope=0 Â°
+Rotation=90 Â°
+X-Pos=-200nm
+Y-Pos=1.4Âµm
+Z-Plane=0 m
+Line mode=Standard
+Date=16-06-2025
+Time=11:34:28
+-- Feedback --=--------
+Setpoint=84 %
+P-Gain=20000 
+I-Gain=4500 
+D-Gain=0 
+P-Gain2=0 
+I-Gain2=1000 
+D-Gain2=0 
+Tip voltage=0 V
+Feedback mode=Free
+Feedback algo.=Standard PID
+Vibration freq.=253.412kHz
+Vibration ampl.=500mV
+Excitation ampl.=140mV
+Error range=20 V
+Ampl. Ctrl. mode=Const. Drive
+-- Global --=--------
+Measurement environment=Air
+Op. mode=Dynamic Force
+Cantilever type=ac160
+Head type=FlexAFM
+Scan head=90-25-078 NIR 100um CX.hed
+Laser working point=56.7%
+Deflection offset=31.4%
+Software ver.=3.10.5.19
+Firmware ver.=3.10.5.19 (Dec 20 2024 10:42:49)
+Controller S/N=091-23-101
+-- Module --=--------
+Nanosurf Report=10
+Scripting Interface=1
+
+[DataSet\DataSetInfos]
+SubSectionCount=4
+SubSection0=Scan
+SubSection1=Feedback
+SubSection2=Global
+SubSection3=Module
+
+[DataSet\DataSetInfos\Scan]
+SubSectionCount=0
+Image size=0 m
+Scan direction=Up
+Time/Line=200ms
+Points=4 
+Lines=160 
+X-Slope=0 Â°
+Y-Slope=0 Â°
+Rotation=90 Â°
+X-Pos=-200nm
+Y-Pos=1.4Âµm
+Z-Plane=0 m
+Line mode=Standard
+Date=16-06-2025
+Time=11:34:28
+
+[DataSet\DataSetInfos\Feedback]
+SubSectionCount=0
+Setpoint=84 %
+P-Gain=20000 
+I-Gain=4500 
+D-Gain=0 
+P-Gain2=0 
+I-Gain2=1000 
+D-Gain2=0 
+Tip voltage=0 V
+Feedback mode=Free
+Feedback algo.=Standard PID
+Vibration freq.=253.412kHz
+Vibration ampl.=500mV
+Excitation ampl.=140mV
+Error range=20 V
+Ampl. Ctrl. mode=Const. Drive
+
+[DataSet\DataSetInfos\Global]
+SubSectionCount=0
+Measurement environment=Air
+Op. mode=Dynamic Force
+Cantilever type=ac160
+Head type=FlexAFM
+Scan head=90-25-078 NIR 100um CX.hed
+Laser working point=56.7%
+Deflection offset=31.4%
+Software ver.=3.10.5.19
+Firmware ver.=3.10.5.19 (Dec 20 2024 10:42:49)
+Controller S/N=091-23-101
+
+[DataSet\DataSetInfos\Module]
+SubSectionCount=0
+Nanosurf Report=10
+Scripting Interface=1
+
+[DataSet\Calibration]
+SubSectionCount=2
+SubSection0=Scanhead
+SubSection1=Cantilever
+
+[DataSet\Calibration\Scanhead]
+SubSectionCount=0
+Version=9
+HeadTyp=FlexAFM
+SerialNo=90-25-078
+RevisionNo=1
+ReadoutOpticalCenter=0.000000;0.000000
+PTEOpticalCenter=0.000000;0.000000
+ScanFit=Pomfit
+CtrlInPol=Positiv
+Main1InPol=Positiv
+Main2InPol=Positiv
+SignalUserADC0Pol=Positiv
+SignalUserADC1Pol=Positiv
+SignalUserADC2Pol=Positiv
+SignalUserADC3Pol=Positiv
+AnalogOut2Pol=Negativ
+AnalogOut3Pol=Negativ
+XAxisPol=Positiv
+YAxisPol=Positiv
+ZAxisPol=Negativ
+ZAxisAnalogOut2Pol=Negativ
+ZAxisAnalogOut3Pol=Negativ
+Ch0Corr=None
+SetPointCheck=None
+InCount=30
+In0=0,Channel0,Amplitude,V,10,0
+In1=1,Channel1,Z-Axis,m,5.22542e-06,0
+In2=2,Channel2,Amplitude,V,10,0
+In3=3,Channel3,Phase,Â°,180,0
+In4=4,Channel4,Tip current,A,0.0001,0
+In5=5,TipSignalDC,Deflection,m,1.4e-06,0
+In6=6,TipSignalAC,Amplitude,V,10,0
+In7=7,TipPhase,Phase,Â°,180,0
+In8=8,Lever Current,Tip current,A,0.0001,0
+In9=9,User Input0,User input 1,V,10,0
+In10=10,User Input1,User input 2,V,10,0
+In11=11,HeadSig2,Friction force,V,10,0
+In12=12,Channel5,User input 1,V,10,0
+In13=13,Channel6,User input 2,V,10,0
+In14=15,Dissipation,Dissipation,V,10,0
+In15=16,TipSignalDC1,Deflection,V,10,0
+In16=17,TipSignalDC2,Deflection,N,1,0
+In17=18,SensorSignal1,SensorSignal,W,0.010268,0
+In18=19,SensorSignal2,SensorSignal,A,0.00032088,0
+In19=20,Channel7,Z-Axis Sensor,m,1.2459e-05,0
+In20=21,XAxisSensor,X-Axis Sensor,m,0.0001,0
+In21=22,YAxisSensor,Y-Axis Sensor,m,0.0001,0
+In22=23,ZAxisSensor,Z-Axis Sensor,m,1.2459e-05,0
+In23=24,User Input2,User In A,V,10,0
+In24=25,PDSumV,Photodetector sum,V,5,0
+In25=26,PDSumW,Photodetector sum,W,0.001,0
+In26=27,SHAddon,Head addon input,V,5,0
+In27=28,Fast User In,Fast User input,V,1,0
+In28=29,Aux In,User input 1,V,10,0
+In29=30,User Input3,User input 4,V,10,0
+OutCount=16
+Out0=0,ScanAxis0,X-Axis,m,5.0565e-05,0
+Out1=1,ScanAxis1,Y-Axis,m,5.0365e-05,0
+Out2=2,ScanAxis2,Z-Axis,m,5.22542e-06,0
+Out3=4,AnalogOut0,Tip voltage,V,10,0
+Out4=5,AnalogOut1,Not defined,V,10,0
+Out5=6,AnalogOut2,User Output 1,V,10,0
+Out6=7,AnalogOut3,User Output 2,V,10,0
+Out7=8,DriveAmp,Excitation amplitude,V,5.3,0
+Out8=9,MixedOut4,User Output C,V,10,0
+Out9=10,PTEAmp,PTE amplitude,-,1,0
+Out10=11,ROSetPoint,Readout setpoint,-,1,0
+Out11=12,SHAddon,Head addon output,V,10,0
+Out12=13,PTESetPoint,PTE SetPoint,-,1,0
+Out13=14,ScanAxis0LV,X-Axis-LV,m,3e-06,0
+Out14=15,ScanAxis1LV,Y-Axis-LV,m,3e-06,0
+Out15=16,ScanAxis2LV,Z-Axis-LV,m,5e-07,0
+ScanCorrCount=1
+ScanCorrA=0
+ScanCorrB=0
+ScanCorrC=0
+ScanCorrD=0
+ScanCorrE=0
+ScanCorrF=0
+ScanCorrG=0
+ScanCorrH=0
+ScanCorrI=0
+ScanCorrJ=0
+ScanCorrK=0
+ScanCorrL=0
+ScanCorrM=0
+ScanCorrN=0
+ScanCorrO=0
+ScanCorrTableRot=0
+ScanCorrRotX=0
+ScanCorrRotY=0
+ScanScaleZ=3276.8
+ScanScaleXY=256
+MaxXYAxisScale=1
+MaxXYAxisScaleLV=1
+MaxZAxisScale=1
+MaxZAxisScaleLV=1
+ZRangeFit=None
+ZRangeCorrCount=1
+ZRangeCorrA=1
+ZRangeCorrB=0
+ZRangeCorrC=0
+ZRangeCorrD=0
+ApproachStartPos=0.33
+MaxApproachSpeed=1
+ManualMoveSpeed=1
+DefaultDynRefAmp=0.0990097
+DefaultDynRefAmpLiquid=0.5
+DefaultDynRefAmpVacuum=0.005
+DefaultForceModRefAmp=1
+DetectorABGainAC=0.075
+CompDcWithX=0
+CompDcWithY=0
+CompDcWithZ=0.003
+VideoSupport=1
+HasLaserOnOffCtrl=1
+XYCLPIDGainsX=1.000000;1.000000;1.000000
+XYCLPIDGainsY=1.000000;1.000000;1.000000
+ScanAxis0FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+HasXPositionSensor=0
+XPositionSensorPol=Negativ
+XPositionSensorLinearizationCoeff=0.000000;0.000000;0.000000;0.000000;0.000000
+HasYPositionSensor=0
+YPositionSensorPol=Negativ
+YPositionSensorLinearizationCoeff=0.000000;0.000000;0.000000;0.000000;0.000000
+HasZPositionSensor=1
+ZPositionSensorPol=Negativ
+ZPositionSensorLinearizationCoeff=0.000000;0.000000;0.000000;0.000000;0.000000
+ApproachStatusMode=3
+ApproachStatusPol=Positiv
+ApproachStatusMeterRange=-1;-0.6;0.6;1
+SensorStatusMode=3
+SensorStatusPol=Positiv
+SensorStatusMeterRange=0.01;0.025;0.045;0.265;0.275;0.29
+LaserWavelength=850
+
+[DataSet\Calibration\Cantilever]
+SubSectionCount=0
+Version=2
+GUID={17135b84-c6a2-4150-85ee-3cb45ff42a60}
+Name=ac160
+Manufacturer=BudgetSensors
+PropCount=14
+Prop0=D[26]*[N/m]
+Prop1=D[300000]*[Hz]
+Prop2=D[0.00016]*[m]
+Prop3=D[4e-05]*[m]
+Prop4=D[500]*[]
+Prop5=D[65000]*[Hz]
+Prop6=D[5]*[]
+Prop7=D[0]*[]
+Prop8=D[10]*[Â°]
+Prop9=D[1e-08]*[m]
+Prop10=D[500]*[]
+Prop11=D[190000]*[Hz]
+Prop12=D[0.3]*[]
+Prop13=D[1]*[]
+
+[DataSet\Parameters]
+SubSectionCount=8
+SubSection0=Approach
+SubSection1=ZFeedback
+SubSection2=Lithography
+SubSection3=Imaging
+SubSection4=SignalIO
+SubSection5=Spectroscopy
+SubSection6=SPMSystem
+SubSection7=Stage
+
+[DataSet\Parameters\Approach]
+SubSectionCount=0
+ApproachSteps=L[65000]*[]
+WithdrawSteps=L[30]*[]
+AutoPeriode=D[0.02]*[s]
+MovePeriode=D[0.02]*[s]
+StepSlope=L[6]*[]
+AutoStartScan=B[0]*[]
+ApproachSpeed=D[0.0949939]*[%]
+AFMApproachMode=L[1]*[]
+AFMMotorSource=L[1]*[]
+AFMStepByStepSpeed=D[1]*[]
+AFMStepByStepSlope=D[1e-05]*[m/s]
+AFMStepByStepFineStepSizePercentage=D[5]*[%]
+AFMStepByStepCoarseStepSizePercentage=D[90]*[%]
+AFMStepByStepMode=D[0]*[]
+AutoXYCalib=B[1]*[]
+AdvancedMode=L[0]*[]
+FSAApproachSpeed=D[1]*[]
+FSAPeakAmplitudeReduction=D[20]*[%]
+FSAVibrationAmplitude=D[5]*[V]
+FSASetPoint=D[95]*[%]
+
+[DataSet\Parameters\ZFeedback]
+SubSectionCount=0
+PGain=L[20000]*[]
+IGain=L[4500]*[]
+DGain=L[0]*[]
+PGain2=L[0]*[]
+IGain2=L[1000]*[]
+DGain2=L[0]*[]
+SetPoint=D[84]*[%]
+SetPointForce=D[2.00012e-08]*[N]
+SetPointDC=D[1e-09]*[V]
+SetPointAmp=D[84]*[%]
+SetPointPhase=D[1]*[V]
+SetPointForceUnitMode=L[2]*[]
+SetPointForce_V=D[0.273]*[]
+SetPointForce_m=D[1.00006e-07]*[]
+SetPointForce_N=D[2.00012e-08]*[]
+SetPointDeltaF_Hz=D[1]*[V]
+SetPointUserDefined=D[0]*[V]
+ChGainRegError=L[0]*[]
+FeedbackMode=L[0]*[]
+Algorithm=L[0]*[]
+RefFrq=D[253412]*[Hz]
+RefAmplitude=D[0.140212]*[V]
+RefPhase=D[216.661]*[Â°]
+CoarseSweepStartFrq=D[210000]*[Hz]
+CoarseSweepEndFrq=D[390000]*[Hz]
+CoarseSweepStepFrq=D[524.781]*[Hz]
+FineSweepStartFrq=D[251767]*[Hz]
+FineSweepEndFrq=D[254297]*[Hz]
+FineSweepStepFrq=D[7.37703]*[Hz]
+ManualSweepStartFrq=D[251767]*[Hz]
+ManualSweepEndFrq=D[254297]*[Hz]
+ManualSweepStepFrq=D[7.37703]*[Hz]
+AutoCalFrqPeak=B[0]*[]
+AutoCalPhase=B[1]*[]
+DynamicAmp=D[0.5]*[V]
+CalRefPlotGraph=B[0]*[]
+ForceModFrq=D[20000]*[Hz]
+ForceModAmp=D[1]*[V]
+AutoFrqSweepRange=B[1]*[]
+AmpCtrlMode=L[0]*[]
+FrqPeakReduceAir=D[20]*[%]
+FrqPeakUpperSideAir=B[1]*[]
+FrqPeakReduceLiquid=D[5]*[%]
+FrqPeakUpperSideLiquid=B[0]*[]
+FrqPeakReduceVacuum=D[20]*[%]
+FrqPeakUpperSideVacuum=B[1]*[]
+RegMoveMode=L[1]*[]
+DynamicMeasureBW=L[9]*[]
+RegOutputSel=L[0]*[]
+FrequencyLockRange=L[15]*[]
+PhaseCtrlPGain=D[0.3]*[]
+PhaseCtrlIGain=D[2.5]*[]
+AmplCtrlPGain=D[2.5]*[]
+AmplCtrlIGain=D[20]*[]
+UserOpModeInputSel=L[0]*[]
+UserOpModeInputPol=L[0]*[]
+UserOpModePIDGainCorr=D[1]*[]
+UserOpModeDCOffsetMode=L[0]*[]
+UserOpModeDCOffsetAutoGain=D[1]*[]
+CantileverExcitationMode=L[1]*[]
+ManualSweepOnSensorCalibration=B[0]*[]
+
+[DataSet\Parameters\Lithography]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+OpMode=L[2]*[]
+InactivePenMode=L[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+XYMoveSpeed=D[1e-05]*[m/s]
+ZMoveSpeed=D[1e-06]*[m/s]
+LiftTipAbsZPos=D[-5.05e-06]*[m]
+
+[DataSet\Parameters\Imaging]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+ScanRange=V[0,0,0]*[m,m,m]
+ScanOffset=V[-2e-07,1.4e-06,0]*[m,m,m]
+ScanRotation=V[0,0,90]*[Â°,Â°,Â°]
+ScanTime=V[0.2,0.2,0]*[s,s,s]
+Datapoints=V[4,160,0]*[,,]
+ScanMode=L[0]*[]
+OverScanSize=D[0]*[%]
+FirstScanlineRep=L[1]*[]
+SyncOutMode=L[0]*[]
+LineScanning=L[0]*[]
+RelTipPos=D[3e-07]*[m]
+ContourEnabled=B[0]*[]
+AutoReadjustProbeEnabled=B[0]*[]
+ReadjustLiftHeight=D[1e-06]*[m]
+SndScanDynamicAmplitude=D[0]*[V]
+SndScanDynamicAmplitudeEnabled=B[0]*[]
+SndScanForceModulationAmplitude=D[0]*[V]
+SndScanForceModulationAmplitudeEnabled=B[0]*[]
+SndScanEnableDarkMode=B[0]*[]
+SndScanEnableKPFM=B[0]*[]
+SndScanSndLockInExcitationAmplitude=D[0]*[]
+SndScanSndLockInExcitationAmplitudeEnabled=B[0]*[]
+XYMoveSpeed=D[1e-05]*[m/s]
+AutoSlopeCorrection=B[0]*[]
+AutoDeleteBuffer=B[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+SpikeGuardEnable=B[1]*[]
+PrescanSpeedup=L[0]*[]
+
+[DataSet\Parameters\SignalIO]
+SubSectionCount=0
+UserDAC0=D[0]*[V]
+UserDAC1=D[0]*[V]
+EnableUserADC0=B[0]*[]
+EnableUserADC1=B[0]*[]
+EnableUserADC2=B[0]*[]
+TipSignalMode=L[0]*[]
+ExcitationMode=L[0]*[]
+MonitorOut0=L[8]*[]
+MonitorOut1=L[15]*[]
+EnableUserADC1ZSensor=B[0]*[]
+User0CtrlMode=L[0]*[]
+User0InputPol=L[0]*[]
+User0OutputFlag=L[0]*[]
+User0SetPoint=D[0]*[V]
+User0IGain=L[1000]*[]
+EnableAuxIn=B[0]*[]
+EnableSHAddonIn=B[0]*[]
+SHAddonOut=D[0]*[V]
+
+[DataSet\Parameters\Spectroscopy]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+OutputType=L[0]*[]
+Repetition=L[1]*[]
+RepetitionMode=L[1]*[]
+FwModTime=D[1]*[s]
+BwModTime=D[1]*[s]
+ModRelValue=B[1]*[]
+FwModDatapoints=L[1024]*[]
+BwModDatapoints=L[1024]*[]
+SyncOutMode=L[0]*[]
+FeedbackActive=B[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+SpecEndMode=L[0]*[]
+FwModRange=D[1e-06]*[m]
+BwModRange=D[-1e-06]*[m]
+XYMoveSpeed=D[2e-05]*[m/s]
+StartOffset=D[-6e-07]*[m]
+StartOffsetMoveSpeed=D[1e-06]*[m/s]
+FwModMode=L[0]*[]
+BwModMode=L[0]*[]
+FwModStopValue=D[0]*[V]
+BwModStopValue=D[0]*[V]
+FwModStopMode=L[1]*[]
+BwModStopMode=L[1]*[]
+FwPauseTime=D[0]*[s]
+BwPauseTime=D[0]*[s]
+FwPauseDatapoints=L[0]*[]
+BwPauseDatapoints=L[0]*[]
+FwPauseMode=L[0]*[]
+BwPauseMode=L[0]*[]
+AutoRecalibrateProbeInterval=L[0]*[]
+PressurePulseValue=D[0]*[bar]
+PressurePulseDuration=D[0]*[s]
+PressurePulseRelative=B[0]*[]
+PressurePulseActive=B[0]*[]
+PressureActionId=L[0]*[]
+ModulationStopValueBandwidth=L[4000]*[]
+
+[DataSet\Parameters\SPMSystem]
+SubSectionCount=0
+AOut0=D[0]*[V]
+AOut1=D[-3.13679]*[V]
+SPMMode=L[3]*[]
+VideoFPSControlValueMin=D[1.5]*[]
+VideoFPSControlWindowSize=L[5]*[]
+VideoTopLight=D[100]*[%]
+VideoSideLight=D[82]*[%]
+VideoTopBrightness=D[80]*[]
+VideoSideBrightness=D[80]*[]
+VideoTopContrast=D[70]*[]
+VideoSideContrast=D[70]*[]
+FlexVideoTopExpTime=L[60]*[]
+FlexVideoSideExpTime=L[60]*[]
+FlexVideoTopGain=L[8]*[]
+FlexVideoSideGain=L[8]*[]
+FlexVideoTopADCLevel=L[2]*[]
+FlexVideoSideADCLevel=L[2]*[]
+FlexVideoTopRatioR=D[1]*[]
+FlexVideoSideRatioR=D[1]*[]
+FlexVideoTopRatioG=D[1]*[]
+FlexVideoSideRatioG=D[1]*[]
+FlexVideoTopRatioB=D[1]*[]
+FlexVideoSideRatioB=D[1]*[]
+FlexVideoTopRatioGamma=D[1]*[]
+FlexVideoSideRatioGamma=D[1]*[]
+FlexVideoTopAutoLevels=B[1]*[]
+FlexVideoSideAutoLevels=B[1]*[]
+FlexVideoTopPositionMarkerX=D[0]*[]
+FlexVideoSidePositionMarkerX=D[0]*[]
+FlexVideoTopPositionMarkerY=D[0]*[]
+FlexVideoSidePositionMarkerY=D[0]*[]
+HighResVideoTopExpTime=L[60]*[]
+HighResVideoSideExpTime=L[60]*[]
+HighResVideoTopGain=L[25]*[]
+HighResVideoSideGain=L[8]*[]
+HighResVideoSideADCLevel=L[2]*[]
+HighResVideoTopRatioR=D[1]*[]
+HighResVideoSideRatioR=D[1]*[]
+HighResVideoTopRatioG=D[0.8]*[]
+HighResVideoSideRatioG=D[1]*[]
+HighResVideoTopRatioB=D[0.8]*[]
+HighResVideoSideRatioB=D[1]*[]
+HighResVideoTopRatioGamma=D[0.9]*[]
+HighResVideoSideRatioGamma=D[1]*[]
+HighResVideoTopAutoLevels=B[1]*[]
+HighResVideoSideAutoLevels=B[1]*[]
+HighResVideoTopADCLevel=L[2]*[]
+HighResVideoTopPositionMarkerX=D[0]*[]
+HighResVideoSidePositionMarkerX=D[0]*[]
+HighResVideoTopPositionMarkerY=D[0]*[]
+HighResVideoSidePositionMarkerY=D[0]*[]
+ImSoVideoTVConfiguration=S[<device_state libver="3.4" filemajor="1" fileminor="0">    <device>        <vcdpropertyitems>            <item guid="{284C0E06-010B-45BF-8291-09D90A459B28}" name="Brightness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E07-010B-45BF-8291-09D90A459B28}" name="Contrast">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E08-010B-45BF-8291-09D90A459B28}" name="Hue">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E09-010B-45BF-8291-09D90A459B28}" name="Saturation">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="64" />                </element>            </item>            <item guid="{284C0E0A-010B-45BF-8291-09D90A459B28}" name="Sharpness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E0B-010B-45BF-8291-09D90A459B28}" name="Gamma">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="100" />                </element>            </item>            <item guid="{284C0E0D-010B-45BF-8291-09D90A459B28}" name="WhiteBalance">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{AB98F78D-18A6-4EB2-A556-C11010EC9DF7}" name="WhiteBalance Mode">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E06}" value="0" />                </element>            </item>            <item guid="{284C0E0F-010B-45BF-8291-09D90A459B28}" name="Gain">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="30" />                </element>            </item>            <item guid="{90D5702E-E43B-4366-AAEB-7A7A10B448B4}" name="Exposure">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{65190390-1AD8-4E91-9021-66D64090CC85}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{6519038C-1AD8-4E91-9021-66D64090CC85}" name="Auto Reference">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="128" />                </element>            </item>            <item guid="{90D57031-E43B-4366-AAEB-7A7A10B448B4}" name="Trigger">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>            <item guid="{C3C9944A-E6F6-4E25-A0BE-53C066AB65D8}" name="Denoise">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{86D89D69-9880-4618-9BF6-DED5E8383449}" name="GPIO">                <element guid="{7D006621-761D-4B88-9C5F-8B906857A501}" name="GP Out">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{3A3A8F77-6440-46CC-940A-8752B02E6C29}" name="Color Enhancement">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{546541AD-C815-4D82-AFA9-9D59AF9F399E}" name="Highlight reduction">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>            <item guid="{2CED6FD6-AB4D-4C74-904C-D682E53B9CC5}" name="Partial scan">                <element guid="{36EAA683-3321-44BE-9D73-E1FD4C3FDB87}" name="Auto-center">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{DC320EDE-DF2E-4A90-B926-71417C71C57C}" name="Strobe">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>        </vcdpropertyitems>    </device></device_state>]*[]
+ImSoVideoSVConfiguration=S[<device_state libver="3.4" filemajor="1" fileminor="0">    <device>        <vcdpropertyitems>            <item guid="{284C0E06-010B-45BF-8291-09D90A459B28}" name="Brightness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E07-010B-45BF-8291-09D90A459B28}" name="Contrast">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E08-010B-45BF-8291-09D90A459B28}" name="Hue">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E09-010B-45BF-8291-09D90A459B28}" name="Saturation">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="64" />                </element>            </item>            <item guid="{284C0E0A-010B-45BF-8291-09D90A459B28}" name="Sharpness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E0B-010B-45BF-8291-09D90A459B28}" name="Gamma">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="100" />                </element>            </item>            <item guid="{284C0E0D-010B-45BF-8291-09D90A459B28}" name="WhiteBalance">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{AB98F78D-18A6-4EB2-A556-C11010EC9DF7}" name="WhiteBalance Mode">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E06}" value="0" />                </element>            </item>            <item guid="{284C0E0F-010B-45BF-8291-09D90A459B28}" name="Gain">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="30" />                </element>            </item>            <item guid="{90D5702E-E43B-4366-AAEB-7A7A10B448B4}" name="Exposure">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{65190390-1AD8-4E91-9021-66D64090CC85}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{6519038C-1AD8-4E91-9021-66D64090CC85}" name="Auto Reference">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="128" />                </element>            </item>            <item guid="{90D57031-E43B-4366-AAEB-7A7A10B448B4}" name="Trigger">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>            <item guid="{C3C9944A-E6F6-4E25-A0BE-53C066AB65D8}" name="Denoise">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{86D89D69-9880-4618-9BF6-DED5E8383449}" name="GPIO">                <element guid="{7D006621-761D-4B88-9C5F-8B906857A501}" name="GP Out">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{3A3A8F77-6440-46CC-940A-8752B02E6C29}" name="Color Enhancement">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{546541AD-C815-4D82-AFA9-9D59AF9F399E}" name="Highlight reduction">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>            <item guid="{2CED6FD6-AB4D-4C74-904C-D682E53B9CC5}" name="Partial scan">                <element guid="{36EAA683-3321-44BE-9D73-E1FD4C3FDB87}" name="Auto-center">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{DC320EDE-DF2E-4A90-B926-71417C71C57C}" name="Strobe">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>        </vcdpropertyitems>    </device></device_state>]*[]
+ActiveSensorByGUID=S[{17135b84-c6a2-4150-85ee-3cb45ff42a60}]*[]
+MeasEnv=L[0]*[]
+SystemStateIdleZAxisMode=L[1]*[]
+SystemStateIdleMixOut4Mode=L[3]*[]
+SystemStateIdleXYAxisMode=L[0]*[]
+SystemStateIdleZAxisValue=D[0]*[m]
+SndOpModeEnabled=B[0]*[]
+SndOpMode=L[0]*[]
+ZClosedLoopMode=L[0]*[]
+ZClosedLoopSpeed=D[1000]*[]
+XYClosedLoopActive=B[0]*[]
+XYClosedLoopSpeed=D[1000]*[]
+ReadoutLaserSetpoint=D[0]*[]
+ExcitationLaserSetpoint=D[0]*[]
+ExcitationLaserEnabled=B[0]*[]
+ScanAxisRangeSelect=L[1]*[]
+
+[DataSet\Parameters\Stage]
+SubSectionCount=0
+Axis0=16.438500000000001222133505507372319698333740234375mm
+Axis1=153.192099999999982173903845250606536865234375mm
+Axis2=31.442099999999999937472239253111183643341064453125mm
+
+[DataSet-0:0]
+Version=2
+Points=4
+Lines=160
+Frame=Scan forward
+CurLine=159
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=0
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=0
+Dim1Min=0
+Dim2Name=Amplitude
+Dim2Unit=V
+Dim2Range=20
+Dim2Min=-10
+SaveMode=Binary
+SaveBits=32
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-0:1]
+Version=2
+Points=4
+Lines=160
+Frame=Scan forward
+CurLine=159
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=0
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=0
+Dim1Min=0
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=1.04508e-05
+Dim2Min=-5.22542e-06
+SaveMode=Binary
+SaveBits=32
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-0:3]
+Version=2
+Points=4
+Lines=160
+Frame=Scan forward
+CurLine=159
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=0
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=0
+Dim1Min=0
+Dim2Name=Phase
+Dim2Unit=Â°
+Dim2Range=360
+Dim2Min=-180
+SaveMode=Binary
+SaveBits=32
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-0:7]
+Version=2
+Points=4
+Lines=160
+Frame=Scan forward
+CurLine=159
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=0
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=0
+Dim1Min=0
+Dim2Name=Z-Axis Sensor
+Dim2Unit=m
+Dim2Range=2.4918e-05
+Dim2Min=-1.2459e-05
+SaveMode=Binary
+SaveBits=32
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:0]
+Version=2
+Points=4
+Lines=160
+Frame=Scan backward
+CurLine=159
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=0
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=0
+Dim1Min=0
+Dim2Name=Amplitude
+Dim2Unit=V
+Dim2Range=20
+Dim2Min=-10
+SaveMode=Binary
+SaveBits=32
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:1]
+Version=2
+Points=4
+Lines=160
+Frame=Scan backward
+CurLine=159
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=0
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=0
+Dim1Min=0
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=1.04508e-05
+Dim2Min=-5.22542e-06
+SaveMode=Binary
+SaveBits=32
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:3]
+Version=2
+Points=4
+Lines=160
+Frame=Scan backward
+CurLine=159
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=0
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=0
+Dim1Min=0
+Dim2Name=Phase
+Dim2Unit=Â°
+Dim2Range=360
+Dim2Min=-180
+SaveMode=Binary
+SaveBits=32
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:7]
+Version=2
+Points=4
+Lines=160
+Frame=Scan backward
+CurLine=159
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=0
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=0
+Dim1Min=0
+Dim2Name=Z-Axis Sensor
+Dim2Unit=m
+Dim2Range=2.4918e-05
+Dim2Min=-1.2459e-05
+SaveMode=Binary
+SaveBits=32
+SaveSign=Signed
+SaveOrder=Intel
+
+[SetView]
+ViewWidth=638
+ViewHeight=526
+ViewCount=4
+View0=SetView-View0
+View1=SetView-View1
+View2=SetView-View2
+View3=SetView-View3
+
+[SetView-View0]
+ViewTyp=1
+LineOp=2
+Channel=1
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-69396,82136
+ParCount=6
+Par0=1,Shading,0
+Par1=1,DeltaGain,5
+Par2=1,Smooth,0
+Par3=1,DriverInstanceNo,0
+Par4=1,RangeMin,0
+Par5=1,RangeMax,95
+
+[SetView-View1]
+ViewTyp=0
+LineOp=0
+Channel=1
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-2147483644,1089114372
+ParCount=3
+Par0=0,ReverseLine,1
+Par1=0,XAxisMin,0
+Par2=0,XAxisMax,0
+
+[SetView-View2]
+ViewTyp=1
+LineOp=2
+Channel=0
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-4916,6496
+ParCount=6
+Par0=1,Shading,0
+Par1=1,DeltaGain,5
+Par2=1,Smooth,0
+Par3=1,DriverInstanceNo,0
+Par4=1,RangeMin,0
+Par5=1,RangeMax,95
+
+[SetView-View3]
+ViewTyp=0
+LineOp=1
+Channel=0
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-14905752,10652652
+ParCount=3
+Par0=0,ReverseLine,1
+Par1=0,XAxisMin,0
+Par2=0,XAxisMax,0
+
+[ProcessorSet]
+ProcessorCount=0
+
+
+#!ô!Â¨CÂÂ4HÂÌEÂ$TÂDmÂ@nÂä³h·°ö¹,±È‰v‚‰Ì|˜0±£Ht‹8W…hó€#{Ôºl Òjx3iôïgHæcŒZcøÄb¸tbHWa@Ca´&a4aä·`À`„¨`Ø`T“`°…`Xl`ŒŒ`ğy`Hk`°`€x`Ì}`ôl`|`\\`ô`„[`ôˆ`„j`ğb`¬b`<p`¨w` X`DU`”``Lo`¤p`Ôo`|` z`¬_`œX`ˆS`\W`ÈY`Œh`h|`,j`df`x[`P>`À>`pL`xN`4I`tL`pu`ÔR`Ğx`´b`dK`´o`ìb`Ôs`ØW`ÌV`äi`¤^`¤t``g`”O`ÄV`¸t`hX` Q`Ø_`ø@`¨7`i`´^`HM`Ğc`ìs`Ôm`èn`°^`¨_`üv`Äd`˜V`TP`€h` ~`]`¼6`y`¤G`8V`0j`´f`àI`Hb`¼j`hI`pg`È\`p``lg`üs`Üp` b` k`Le` X`0G`HW`Œw`Ds`¨b`HO` L`pa`èu`üz`0v``t`Äe`Ô\`,W`À^`´K`Ìc`|n`Pz`°J`dc`ä:`¼M`lW`”N`Da`˜h`¨d`pa`°X`¸m`ÈS`ìp`¼p`b`°n` [`ÜZ`dl`P``ˆi`€|`Xj`LW`”z`4N`È~`ÀP`@]`|S`ì^`€``(a`ğk`4M`|f`ü]`4p`T`È|`DX`¸V`°n`˜t`|C`(f`H``0^`W`8X`ŒS` v`Ìe`ˆY`,l`\g`r`°]`^`€X`Li`8y`”[`ğb`a` [`\V`dT`ÌO`l[`pp`Àh`¸y`]`LO`A`„g`$F`\` M`€-`Dk`˜W`¨J`°A`äC`t`ÌF`”e`ÄA`äT`P]`:`<X`ÀL`Ha`ˆd`ÈH`@L``>`G`4_`XI` M`ÄL`ğ``¬A`X`Èu`ÀD`ì_`H`tZ`Ği`¬``pT`f`Hu` h`Ğd`äR`l]`¬N`K`$\`øJ`ìa`r`äf`ĞN`TU`\S`¤=`?``f`¬i`ø\`è]`èk`de`8U`hS`\`¨h`I`ìW`<_`ÌY`e`ğO`$I`ĞO`hC`$z`|`,]`X^`dl`Ì:`$T` G`DC`øI`LP``\`¸Y`¼J`4;`Är`hh`”d` \`àx`4U`tP``M`l;`l@`œ\` e`G`ˆQ`b`àZ`T=` H`@Y`ìP`¸a`8R`DY`ÈU` g`w`¬^`ø]`Èt`J`|b`°4`€]`Z`de`DV` S``Z`ğk`„k`€L`øM`äW`Œc`èj`$j`\c`ød`p` X`8]`P^`Ìd`ü@`D?`ˆ]`Xl`7`ôL`{`,C`TQ`t„`Z`hH`Te`HT`hE`|S`@i`ÔH`Ìv`0V`œW`,]`¬b`4`¸G`Üj`xV`°a`d9`<Y`Üq` t`|b`<~`j` h`¸Q`ÈA`<h`ğU`°V`pY`ŒU`t\`l{`|`ÀP`ü]`J`¼S`g`ğV`ğL`ŒZ`]`|a`¸K`„n`ˆV`hk`¨J`F`\[`ğN`Àm`ôQ`HI`œ]`U`˜l`tW` Q`@[`Ì5`ÄD`0:`ÌY`Ti`ÀM`œp`|x`¼\`(L`x4`g`P`ŒL`TW`Üp`ˆq`LQ`8J`pU`Ø[`I`¨^`ğF`ì\`ÜO`DA`\L`hM`àg`ˆY`Ğ3`äY`Q`¼\` b`4c`Ì[`8L`m`Œ©“äÏùX`Ñ4ÿÃ|Ó·¬h'† …4„Ğıƒà˜‚L]‚Ô‚àßì5„L$è …€P‡€••q—Á–|¹– –ì•–\\–i–ød–P–lø•l–ê•ôì•¤«•ì¼•˜¨•$€•k•dn•|P•äE•ğô”T$•¤•<ï”`Ñ” ½” °”d¼”ô’”p†”0š”T‡”Œk” i”ôT”àc”ø,”=”È8”à+”D+”8/”ä*””@÷“ô×“h×“ˆù“8Ç“ŒÊ“€ª“¶“p£“¬““™“@–“–“Xˆ“Øw“„D“ìP“K“ğ9“`.“N“Z“œU“”B“H7“ä.“È5“ ,“Ô9“|I“
+“x“`&“0“"“´ÿ’X“¨5“8ø’ÄÔ’ôê’¼ò’Xå’\å’¸Å’¸£’üß’ìÅ’XÌ’¶’$’ÜÖ’HÅ’lÆ’¬Ç’hš’@¶’˜’Hœ’p’,„’x„’‹’ ‡’Lm’ ›’Ä’’äˆ’,y’Ht’¤‚’@j’ä]’ÔS’I’`A’F’Ø6’ÄI’XYÒ“ğLê“  ”<˜”$z”e”Bš”¸?¨”lLQ›3íô°áŸpâû¡Xô:óˆ' ø±Z
+,o›T~ôÄó b ü2şÀš÷\3¿öœ‡öØÿhõ\&ó´÷Oó<ÁóÔïò\hò&UòÌŞDòI6ò Fò|ßòH²ıñ »øñLıãñÄVàñ¾İñĞQÛñ §Ğñ4ëÎñ ÆÌñP{Éñ¼½Âñ4•Àñ¸N¾ñè!½ñyµñÈÜ³ñœƒ±ñ´¯ñb«ñ
+«ñĞ+©ñø¦ñ˜ ¦ñ§ñ4Ü¦ñ„«¥ñŒ ñLqñ\9œñÉ™ñğy”ñ¬\”ñ¶“ñ˜ó”ñœA‘ñüôñĞ×ñÀ+Œñ@†ñ<ô„ñ<U†ñŒ™‡ñd—ñØvñìsñtñhñäùŒñ(CŒñˆ<ŠñØğ…ñÈf„ñÔsƒñH‚ñh2zñœzñxñì®wñxZsñÀ¼qñØõpñMrñœsñˆßqñüÍpñ ØpñL¾qñ¤ÏrñĞ‚sñøúqñapñÔ›pñ,roñ¸^mñ`ŞhñüVgñüfñ¼›dñ$:\ñ\ñHÿ\ñÌñ[ñà4VñÈTñhôTñ|ñTñ¤,NñØ÷NñTÆMñlMñ¬®Kñd×Kñ,8KñÜÂJñÜ¿Fñ@ÚEñ =EñÜdDñlÊAñŒû?ñğã=ñ˜6=ñpø5ñÈ¼5ñĞÿ5ñøÍ6ñ .0ñHÀ,ñ„,ñxp+ñz'ñ¬(ñày&ñÜH#ñ|Ëñ(„ñÈCñ`ıñL„ñÄpñˆ•ñ ñàÃñ Kñ îññˆWñ öñ¤ÚñüñÈ¹
+ñ@›	ñ”	ñ4şñ…ñ\õñxÏñhñ¨£ ñÀ\ÿğåığŒzüğÀ0şğ_üğŒúğsùğIôğœlñğØüğğÔ+ğğfëğÔñéğ†éğléğhêğØDéğ@KéğpFéğüoäğ0Àãğ tãğ´üâğĞbİğ8ˆÛğÿØğøŠ×ğDÓğèëĞğXĞğ¬·ÎğìĞğ’ÏğĞ±Îğ”lÎğ„ÊğÜÌÊğØîÇğ _Çğ·Àğ4j¿ğØe¾ğÈç»ğ,¾ğØ.½ğø<¼ğxÚ»ğän±ğ¬Ö¯ğ€ª¯ğˆ®ğl9©ğˆÇ¨ğèV©ğ”ò©ğÔ¨ğ d§ğT;¤ğ$4£ğ¬÷›ğğoœğÔkğĞ$ğ  šğ´‘›ğLÂšğHÌğ|J›ğÄÛšğ„v›ğ¼!ğ!šğôTšğ´‚šğxAšğ’œğDŸğ2ğP´ğËğ¨wğÜãğH&Ÿğ:ğx‰ŸğT4 ğ¼•¡ğ4Q£ğ°Z£ğ˜ƒ¤ğÄÉ¥ğx+¨ğØ@¨ğ\Ş¨ğLg§ğ„G¥ğ ¥ğˆß£ğ<¢ğ4` ğÜèŸğP}Ÿğ0LğØï›ğ£šğXå˜ğ@•˜ğ„–ğğI–ğ4å–ğ¼—ğ¤›ğä.šğR™ğäC˜ğ@›ğœ›ğPíšğ  œğğ ğ W¡ğè[ ğ`£ğ´Œ ğHúŸğğÌ6ğ°Äğ¤”ğŞğ¬ ğ”ñ¡ğØp¡ğÈ}¡ğ|ô ğĞÚ¢ğĞ¥ğÌ¤ğÜ¤ğ<_¥ğ,±£ğÈ³ ğ˜p ğ´òœğL1ğ¤ğŒğ¨¢¤ğD¦ğlk¦ğ„£¦ğğ'¨ğôğ§ğdV©ğ”"©ğPà¨ğ$û§ğlŠ¦ğ€^¤ğÜğ£ği¤ğ£¤ğ-¥ğ4‡ªğù«ğÑªğp«ğ€a¬ğXÕ«ğüá«ğôó«ğ(­ğó­ğÔê­ğDĞ­ğ€“ªğ0Ôªğ<šªğ¤•ªğ˜W¦ğÔœ¤ğ,ã¤ğ\§£ğ$ÁŸğ´£Ÿğ€ ğäè¡ğ¼®¥ğpş¤ğ ¹£ğˆ£ğS¤ğ¬g£ğP¢ğ$«¡ğl¤ğ`æ£ğø£ğhê¡ğœq˜ğ”ç–ğ` –ğ4ê”ğ`–ğÀ–ğ¼Ô•ğD•ğÜ”ğtu•ğ–ğĞ›•ğ’ğÈ—“ğØ’ğøj‘ğ´Ö”ğ˜“ğ”=’ğ”’ğØ“ğ’ğ¤ş’ğTv”ğØf–ğ4§–ğdá•ğ¤”ğ(–ğ4pğøLğtÉğl|’ğx’ğ°‘ğ ¹ğœ§ğ·‘ğ°Éğx}ğŒ6ˆğx{†ğ°zƒğP‚ğPZğ„ÔğôV‚ğÈğ„ğ…ğ„‚…ğt	†ğ¨M…ğè^ƒğ¸á€ğ,wğp+€ğ<9}ğx%~ğ€}ğd·}ğD9€ğÈı€ğ¤ğìŸğ°á~ğÄ¹}ğøå|ğtö|ğ0Ÿyğ0”zğ„›{ğLá{ğäÆwğüwğTuwğ—wğ„Şuğ\3tğ Ùsğ´€sğÀÅsğ¼`uğ|ùvğÈ¾xğp²tğT tğìtğ1tğ0ğrğ°0qğ0Lqğ\tğguğTuğÄ¤vğ(vğXåtğ<7tğáqğä2sğ„;uğ±uğœ#vğhVvğxáxğèfyğ 
+yğhzğTœ{ğø,|ğØ>|ğ˜{ğ íwğüİyğ$yğ8™yğXkxğøävğL>vğvğ btğPsïÄ&Eçx9ÚTÁ §,MªŸL¦˜øt„’Œø€  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  € rŒİ	˜ëğQ(S ˜00œèVÑ úà ¸vê œÜÆ ˆlÉÿÈ ´ğU ¨jƒ @¨  T) $ãïÿ¤JİÿÔè ÿŒÛ™ÿÀ]“ÿh%Œÿê{ÿ*zÿ´yÿ`¸xÿ´sÿ4sÿô¤qÿTXrÿ˜Øqÿ4^pÿÔãpÿx_tÿ”ˆqÿ8kqÿùpÿTırÿ¨WqÿÀ6qÿ(}rÿğtÿøÂsÿ¬rÿ´ÇqÿÔ@rÿ|TtÿÌqÿ,^qÿrÿpUtÿP#sÿ`tÿ¼sÿhÂtÿ˜_rÿ×qÿ˜™sÿüwsÿ¸sÿhtÿ´nrÿ¤"sÿÈ¶sÿ`Ìrÿh¶sÿ$*uÿrÿĞÿrÿĞkrÿ˜0sÿP rÿ CsÿÔÊrÿdsÿ`Ârÿ¨Mrÿ xtÿ´vÿıtÿ ¥vÿä¯tÿ ×rÿ<zrÿ˜rÿ€Utÿ¬ sÿÜNsÿ<Rsÿlqÿ`IsÿtRtÿàsÿ\àrÿ´rÿ¼«sÿ<…rÿ¨FsÿL.sÿÌauÿtÿtÿDsÿXuÿlsÿ¤¥sÿ0?rÿÀsÿ tsÿ¸3sÿ<­sÿx>rÿ<Êqÿ<Štÿ„	sÿĞdsÿ€ qÿèŸrÿÈqÿ sÿ ¾rÿ¸œrÿrÿ¬LqÿàÎrÿ4GsÿPVpÿäßqÿÔrÿ¬øqÿÀ{sÿp³sÿ4qÿ0ıpÿ,£pÿìsÿ¨sÿh²pÿl}rÿ¼qÿÀïpÿ¼˜qÿ$ØnÿÀ»pÿdrÿämpÿğºnÿğ0pÿ?pÿøÁnÿTÌpÿ°JnÿOqÿ€qoÿ "qÿ\Boÿp—nÿø¯oÿ Ónÿ„ÚpÿÌoÿ xnÿ(šmÿ¼œnÿĞÖnÿŒ“mÿ$ökÿ”¤kÿìMkÿ|„lÿØëlÿøşkÿôùlÿH}lÿôkÿTéjÿxkkÿ´nÿ,mÿ¨Dlÿh³jÿèùjÿÜ¯kÿĞRkÿ˜iiÿTiÿğ,jÿ
+kÿ$ˆkÿøÑjÿH†jÿ–kÿÀjÿğÔjÿqkÿ·iÿàegÿH hÿh³hÿpâhÿàÛhÿ—gÿ¸Ùiÿ(hÿÈ2hÿT¯iÿ‡iÿPiÿ4•hÿÜfÿ Zfÿ´şhÿ4Aiÿ$6gÿPÉfÿDKgÿ¤ãgÿ˜Ægÿ„bgÿĞgiÿÔfÿÜThÿ¼fÿ¨
+fÿüJfÿ¬Lhÿ<eÿ`ŒdÿšfÿÌˆdÿ\seÿídÿ|
+eÿ|=fÿÀfÿğ–cÿ”ädÿ˜àdÿ˜¨fÿèeÿğcfÿLreÿŒ@gÿØdÿ eÿôdÿL<eÿÀTfÿô2eÿ{fÿ°êfÿì’eÿÈĞeÿ$øfÿÚfÿÄØcÿ£eÿ,-gÿ\›dÿ Ğeÿ|fÿÄİeÿ5fÿ€ hÿvhÿdäfÿÈ¹gÿÜòeÿ¼gÿX1eÿ$½eÿ~fÿ<égÿ0iÿ< fÿwgÿÜ(hÿàigÿì¶fÿ„ÍeÿLfÿœŠfÿ<“fÿTúfÿôüeÿ¼3gÿP5gÿD+gÿHRhÿØÂeÿ<fÿzfÿd÷eÿ¬Ugÿ¼eÿØhfÿ`ZfÿJeÿ`ßfÿlñeÿX9fÿT…gÿÄ™fÿ—fÿ¼!hÿLºgÿğUeÿ4³eÿœ{fÿxGgÿ¨eÿ¬ãfÿTifÿ˜,fÿDĞeÿèhÿLiÿ0¾gÿ¬§hÿxìgÿ\çgÿØ‚gÿÄhÿƒfÿ@fÿÄñeÿ03gÿ”8hÿ8gÿPFiÿ[gÿHfÿ8gÿ¤*gÿ¬]jÿĞœgÿh¼gÿğiÿğÂhÿ<{iÿ(Ihÿä(hÿ¨Gjÿd¢hÿLoiÿ´êgÿÜ=jÿTÀgÿ4&jÿÈ‰gÿgÿ|ƒhÿ”hÿsgÿ¬›fÿ˜…iÿ`#iÿ`€gÿ„–hÿ`hÿ<¡hÿôhÿ´jÿ˜!hÿ ½hÿl,jÿ@`hÿ óiÿ„ÃiÿL«gÿØşhÿähhÿlhÿ(+gÿØ”gÿìøhÿ ØhÿØrgÿTjÿ4Úiÿ¬ÓiÿÔDiÿˆHhÿ¸LhÿHvkÿ¿iÿˆµhÿü;kÿPjÿD[kÿP
+kÿviÿ¤iÿ„…jÿ¨’jÿLnlÿü}iÿüiÿ$€iÿĞ¥iÿÈ	kÿ¬7jÿ4Õiÿ¼Jkÿ$®kÿ`“jÿ”Àiÿômmÿ„kÿP‚jÿXÊlÿ|Nkÿü?jÿ,lÿkÿ`Vmÿ|†kÿœÔlÿ0lÿ<blÿpémÿ´qlÿØmÿŸkÿHmÿpÿ$ãlÿpŠkÿ„œkÿ¨lÿÈPoÿPnÿ$nÿpônÿ<nÿÔ1nÿT9mÿÌonÿ.lÿÌ2lÿHonÿwnÿØEkÿ\lmÿèJnÿqoÿ´klÿDŸmÿänkÿX‹mÿd5kÿ¼²lÿÔamÿTukÿèÈkÿlÿÄmÿ <nÿxElÿdmÿœimÿÌEmÿXmÿ¬–mÿ,ckÿdmÿä´kÿä!kÿì*mÿĞ•mÿ@ÏmÿpHlÿ\‚nÿdºkÿ,3mÿ8¹nÿè—lÿ|blÿ(Hnÿà¼mÿ¬ãlÿ ½kÿÈVoÿÀ-nÿ˜+mÿ€vmÿRmÿÄÆmÿ4“nÿŒímÿ¨8mÿ”O ŠìŒ¥E fM°"Pè p» D5 Ğ¡ <D 4è œ+ ‰ ä¤ 8x TA p> Èi	 ğÈ ô| <0 P&_ ğ»f ¼ e ñc ud °Kc <gb ˆ¥d  ;d Xc €Ša ¬Å` T6b 4ib ,®a t_` ¨Š` ÈŒa Üßa 4Ò` í_ ì›a 4ˆ` (J` X\` |;` ôK] Ğ] ¼¶^ ,Ù^ àÙ_  H_ ¨^ À^ ä©` <\] ŒÑ^ „õ^ `¹^ Æ] Dè\ ¼O\ Ğq[ À…[ PJ\ è˜] D6] °‡[ `~[ 8] xö[ ¬«Z ¤»\ ¨] ´[ >[ `vZ ¼XZ  $Z )[ °úY ´t] Èj[ ƒ\ ”¼[ œ\ [ ü[ ¸\ ŒË\ duZ ĞÌ[ ¤ŞY /Z dZ ˜†Y ´ŒZ ÌZ @OZ ä=[ Œ[ X‰Y äKY J[ ğ”Z ĞôY X
+[ DY GY ,ÚX Ü±X 4LY ì{Z ôêX è³Z à¤Z Ô¥X @ÔW ¼‚Z qZ ¨9Y ¤Y ØHX ÔÎW uX ºX àÿW ´ X  X xGW Ä"Y <ˆY 8HX ¨QX éW ì…W tëW ”›V H2W dšX 0@X 4,W ,`X üËX ”W V y½İğéºİäõ·İ”F¶İ³İPÃ²İè°İğ´®İØ±fàÜˆádâGMãø¶!	:¶Äõ®”[f˜¥TTØ
+„jíœ‡÷èĞ°¶œ¼¹G¸_şœÁ¬áÿ+æäWĞĞ4 ¡ƒÌ²{$ tœDZxZW€íSÀRQøÉDÿB˜AÜŠ?8d¤6ÔN5¨B3d\.Xô,t€+ØD*\D%è$@ì"ün! ıÄ:<Û8ì›Ğ7€×œ€ã0ô|¦\	¬/,Ä\
+¬t
+tf0ÎÔÎHl% Äÿ
+¤×ÿ
+ü÷ÿ
+§°”]P@ÿ
+l–ş
+¬îı
+Äÿü
+$¯ù
+èÍø
+ìø
+ì?÷
+(–ò
+Ü<ò
+œ=ñ
+°Ğğ
+dVî
+äSí
+D¼ì
+Œïì
+ğìì
+2ì
+ÄRë
+ë
+Œ{ê
+˜ˆê
+øËê
+˜µé
+ØXè
+T«ç
+ôöæ
+XÜå
+Xã
+´Mâ
+àÌá
+DÍà
+ÀüÛ
+¬–Û
+8ŸÛ
+¬JÛ
+ÌmØ
+-×
+Ø4×
+èE×
+ôÓ
+X~Ó
+|{Ò
+ÍÑ
+ÜxĞ
+ }Ğ
+”óÏ
+ÜŠÏ
+<Í
+èÜÌ
+ä:Ì
+4˜Ë
+0¦É
+8lÈ
+Ä—Ç
+Ç
+tXÃ
+€îÂ
+ÄûÂ
+hÿÂ
+§¿
+Äó½
+„½
+P½
+Èkº
+Ğ:º
+C¹
+Ü’·
+ÀÅ´
+€O³
+³
+Ä;²
+|°
+@g°
+<È¯
+Ì7¯
+´$®
+8¿¬
+$g¬
+ È«
+6«
+8‰«
+€h«
+r«
+&¨
+ÈT§
+(ñ¦
+HQ¦
+˜^¤
+t¤
+Hê£
+(»£
+ü2¡
+”/ 
+lNŸ
+ü¬
+O
+H\
+(Üœ
+à„œ
+¸°™
+Œ=˜
+4y—
+ Ë–
+xd”
+<u“
+Xî’
+€´’
+ä­’
+lI’
+d.’
+¼5’
+ˆ¯
+Ä
+ÌŞ
+ÈR
+@}‹
+Ô»Š
+U‰
+4—ˆ
+¸†
+ÔG…
+P\„
+`ÿƒ
+lŞƒ
+XWƒ
+Â‚
+Øp‚
+Àã
+˜4€
+¿~
+Ø4~
+Tšz
+Ô;z
+°y
+Ğpx
+cx
+(x
+¤uw
+„Uw
+Ğr
+LŒq
+xÿp
+4p
+”ƒm
+m
+üpm
+´ƒm
+¤l
+ì©k
+lcj
+lj
+€Uf
+¨Yf
+€İf
+°yf
+8ëd
+˜”d
+0ud
+`œe
+d
+ ™c
+ğªc
+T=d
+L[b
+ğjb
+Zb
+¬b
+4b
+T˜b
+ ‰b
+pŸb
+<lb
+zb
+ˆTb
+xcb
+ra
+¬ğa
+b
+üAb
+èëb
+hâb
+„[c
+”Ğc
+ d
+£d
+`öd
+,d
+lHb
+À„b
+ÜÂa
+HÆ`
+èì_
+\ß_
+¼)_
+$²^
+˜ó]
+Ø%]
+”\
+ØÉ[
+üZ
+8<Z
+HZ
+dZ
+°íZ
+äoZ
+ÊY
+ä»Y
+”4Z
+T|Z
+$7Z
+ğÊZ
+|§\
+p©\
+Ü\
+˜"[
+Üw[
+Ü[
+ÈóY
+6Y
+$1Z
+P#Z
+$Z
+ˆüY
+"[
+,[
+”[
+´Z
+0[
+|\
+ğv[
+Ôh[
+tm[
+ĞÚZ
+<VY
+ˆ*Y
+¸pW
+CW
+€ˆW
+£W
+pZ
+P]Z
+X}Z
+ÀVZ
+DÙZ
+üÓZ
+ØøZ
+¼*[
+hÆZ
+DZ
+LNY
+ÄtX
+TÉW
+À·W
+˜lW
+0æW
+,TZ
+¼ÅZ
+$Z
+ÄZ
+üyZ
+À@Z
+Z
+ÜCZ
+xÅZ
+˜ÆZ
+¼ñZ
+ÄâZ
+Y
+Œ÷X
+t«X
+P¬X
+d@V
+„TU
+|ãU
+øU
+Ğ:S
+pnS
+ÜqS
+ˆT
+ğLU
+œşT
+|˜T
+ eT
+D"T
+°¥S
+¼S
+\ûR
+|°S
+<|S
+L>S
+ˆ{R
+T5N
+ RM
+Œ·L
+ ¸L
+ø\L
+<³K
+ÔsK
+(şJ
+hzJ
+È K
+T}K
+ÜMK
+üTI
+XJ
+„ I
+ÈÄH
+È»I
+I
+½H
+ˆ¨H
+hÒH
+øÊG
+X@H
+$I
+ğ9I
+\HI
+ÿH
+$ZH
+Ğ‘F
+pšF
+Ğ(F
+$&F
+¨+G
+ô@G
+XQF
+HF
+ÔœE
+(9F
+™E
+<ÍD
+äB
+L+A
+´ğ?
+TQ?
+M>
+à‹>
+|?
+ÜY>
+¨×?
+Ôz?
+¤Ê?
+Pv?
+Ü5>
+0=
+O<
+¸š<
+};
+äË;
+\„;
+P.;
+4ğ;
+„=<
+„'<
+ˆw;
+”Ù:
+°h:
+¸ú9
+X:
+,8
+ğL8
+ìi8
+08
+€‘6
+D¹5
+à/6
+$6
+œ25
+XŠ4
+ÌQ4
+°Y4
+HÙ3
+¡4
+`	5
+¨Ç5
+8È3
+ï3
+@v3
+ 73
+è;3
+72
+V2
+´W3
+A3
+$3
+ˆÉ3
+äÒ3
+P23
+üÿ2
+Ô»1
+H‰2
+ğØ2
+ 33
+ğq3
+l/3
+$Å3
+4
+x4
+hX4
+s4
+¸ñ4
+\4
+”4
+pÚ2
+Ä/3
+ å2
+¨3
+2
+„O1
+t1
+¬Ô0
+ ~0
+ğÊ	ÔŞ\t>š dlõçtnñã¼­_à†9İ´ivÓÌ;ÓhÓ¼ºóÒS‘ÒœşÒˆ³sÒ@†fÒª2Ò,f)Ò¤ù ÒØeÒäõÑ¤KîÑxÕçÑìwáÑØ·ÆÑÄCÁÑäg¼ÑÔ·Ñ<¡Ñ<ôœÑ|Û˜Ñp€”Ñ$ĞÑ¨R~ÑÀÄzÑTnwÑ¨—gÑøxdÑlXaÑÿ]Ñ(MPÑ,YMÑ¼‚JÑD‡GÑ\W;Ñ°º8Ñ¸'6Ñ´X3ÑÌ(ÑğQ&Ñ¨È#Ñpq!ÑtèÑ)ÑtãÑLÔÑ($ÑôÍÑ88Ñ¬’ÑîøĞÔÂöĞˆ6õĞÈŒóĞèëĞÌÍéĞ &èĞøKæĞ¸ÁŞĞXşÜĞ´vÛĞ,ÌÙĞ¬îÒĞü;ÑĞüîÏĞTCÎĞˆ®ÇĞ€SÆĞ”ËÄĞ€;ÃĞÌ#½Ğ0ó»Ğ¨·ºĞ€n¹Ğ|É³ĞÈw²ĞT±Ğ¨°Ğl‰©ĞØf¨Ğ,Ë¦ĞÈ¥Ğ„G Ğ˜(ŸĞ,Ğà2Ğìõ—Ğ@£–ĞàÇ•ĞœÚ”Ğt/Ğ3Ğ\Ğ8)ŒĞdÙ†ĞÔü…Ğlá„ĞÌâƒĞtĞ\ë}ĞX-}Ğ0|Ğ´$wĞŒbvĞp:uĞUtĞ9pĞDCoĞ¨şmĞ÷lĞx_iĞ4qhĞ¨[gĞ4ÀfĞ´ÅaĞ¤£`ĞXĞ_Ğ\_Ğ„`[ĞƒZĞğÄYĞ YĞ$UĞØzTĞ MSĞÄnRĞÈNĞÄNĞ *MĞ¤ÃKĞ“HĞ$ÁGĞİFĞH0FĞ…BĞ ÏAĞ¬ú@Ğh/@Ğ?Â(9Âˆ0Â„9Â„N¯˜‹»|†Âè‚Â0‰d ÔRÚU$VˆV‘@8™@¢Da©Ì€np.qtRtÉwÔld eœßeHßf{aÈÁa4ìaÀ3bÜÑ`ü¾`ï`´ó`´£`Ø`Œ‹`œ‘`üp`Ôh`$e`Œ`˜h`üh`Øb`m`Äˆ`äu`¤U`8b`ˆq`g`Ø_`HN`,G`ø.`p``Àx`°S`Le`ôm` m`b`Ğb`”k`˜p`V`8Y`xt`Hi`^`ì]`€e`d|`Q`A`˜B`\8`8V`Hb`xg`\H`dp`pK`|`Üm`üp`à{`€t`”f` ``o`0t`ìH`äN`Y`U`ÈE`¬Q`E`0Y`È``tg`Ği`x(`¬w`@b`ˆ[`La`˜s`„`hc`tX` ˆ`ˆi`b`8W`Dl`dy`°c`<o`¼l`ğV`PY`p`àT`|n`dN`´d`˜t`Ôa`€Q`Y`hb`0l`j`Ğf`Èt`,s`Œ`¨g`à5`8W`Øk`Œn`„k`Àh`\s`ôV`¤m`\Y`èh`ğT`tb`PH`àS`,b`¸l`¨d`¬=`œY`,\`Dy`¬m`f`¸^`„R`U`Øk`<d`ì`ì;`l[`¬``x_`>`P>`pa`ğg`te`0a``Z`pj`$U`ìn`ÄZ`¬l` B`td`€@`<f`Àb`°q`ˆT`(~`Hl`|^`ˆX`¨V`”v`\k`¬g`Èi` \`4H`˜F`ì‰`G`Z`u`œ`{`He`ÔQ`lP`<[`Œ?` S`ˆn`ta`üy`D…`Lv`,w`€]`p]`T`ÈQ`¨l`¸_`˜``üj`u`„n`_`¬s`ğM`ÌX`Ìu`TY`,b`¨R`ÜT`Lr`¸e`ìa`2`ÔH`ôo`4Y`Ìj`\T`hU`xA`(e`Ôh`LI`ÔP`Ì?`$T`àS`´b`F`¨e`48`ÄR` O`R`o`¬o`¤V`¤``ìY`\b`T^`øP`¸n`pO` Z`ˆ\`Œb`4f`ìC`('`4e`$_`”?`|U`ÈO`P`ÔB`P`ä[`t5`$A`dS`lZ`ÈC`PE`È\`0f`èQ`Ü4`ˆd`H>`O`ˆl`8>`Ü?`LP`x]``I`€S`ÄT`Ôe`Ä^`<g`„O`4=`H`dO`L`,``4S` M`àL`ÀN`ĞR`Ôb`4X`A`¬W` i`°_`lD` K`Q`x[`@`pW`b`0c`€F`äL`x``¬d`Lc`¬e`Ø_`„\`Lp`<W`Èe`0^`Øa`àk`ˆP`p` C`0J`¬K`ÄM`üO`ˆV`p``àT`¸O`ÈS`¨e`´;`Üo`äƒ`¼o`\l`t:`G`Lc`ì>`Œr`”G`lb`he` ^`$[`ht`|^`°O`4X`˜E`K`¨M`DX`H`4[`L;`xP`tS`ÄS`@_`„Q`di`„u`äQ`¤k`0L`¬O`Hn`ÀX`€T`èM`¼s`@S`Œg``l`W`ˆV`°J`œm`ìD`¬5`XI`I`À]`ìn`XL`TU`ÈX`x``Li`œN`üN`$T`ÌE` O`HJ`Àb`@?`<i`ìO`V`´r`¤b`<{`Èk`R`ÜX`(U``K`PZ`„v`hW` P`Ph`|B`œc`Ìz`8X`h`ÀF`¸U`ˆZ`ˆ_`ì``dK`°P`€Q`hT`¼[`LR`XW`|F`”g`X?`äT`˜l`ÄL`Œ>`ÈC`œV`<N`LV`¸K`l`´[`$Q`È`Ğ]`XF`Pa`b`€i`dM`Y`ä^`cÜê|Y÷ Ù‰ |‘d+š„Ä£(Á‚HƒPfƒ@ÂƒhPà€¤PĞÜ•€ğš€„Ë€¹€¨Í–Ø÷–@g—4x—\v–ls–}–Ì– 
+–¼<– –ø1–™•½•°Ë•ˆè•Ôw•ty•L„•$•(•¸)•è0•h4•Äâ”´ù”ìò”Øÿ”À˜”ü”Ÿ”<½”Hu”X{”ğ”¼†”`H”`l”¨Z”´Y”p0”ğ0”È=” ü“˜÷“à”Ìş“$”¸°“ Ø“|Ê“˜ì“ Ò“°“Ì¦“T¶“èw“Ès“8‘“ôª“ü“@s“ˆ{“°‡“°W“ØJ“4Y“S“äT“ÀJ“(=“\B“ˆ3“ø8“(7“Ô*“€$“|&“ #“Ä2“äû’ö’"“h“Xâ’àæ’Ü “ î’Â’ĞÙ’|Ø’\à’Ø¼’Á’<¨’ˆÎ’ º’,Á’8¬’ğœ’Ü´’¤’’±’Ü˜’à’¸’¸’xl’TŠ’€p’|p’Àœ’ …’ô’Œš’¤^’8w’ôY’†’àR’ Z’¤A’Ü]’t ’„’x9’€>’4éi”@´W”¼ @”À#)”°l˜$õ”<S¶”àø¯”8¨Ëäh@ĞÀ^¹X.L¨¨ßh:Õ,çmº\Äßqø4%›ùäüú°õ›ü¬¡Ìóü\!ô˜VƒôìTöô%yò0’òxŠ®ò€7ÏòPUòvò¸ ò@®+òÔèñLÆíñ [ññ@êôñœ–ÒñH‘ÓñÔ)ÕñhS×ñ ^ÄñÜãÅñ¼ÙÇñ\òÇñĞ=¸ñ4Œ»ñ¼ñ¼k¼ñ|!¬ñ<—­ñ(¯ñÔ®ñ¼¦ñ4I¤ñ¢¢ñ<’¤ñğ0¡ñP+¡ñ0N¢ñ<É£ñ¨¦”ñt•ñLo–ñĞK˜ñ‘ñğa‘ñ0Å’ñÄ±”ñ\††ñ|¡‡ñğaˆñqŠñ„İñ„ ñ8ƒ‹ñt.‰ñœşñÉñ‘ñ¸“‘ñX«…ñà…ñT‡ñÄ~‰ñœyzñX }ñøTñ0Vñ,tñ„*vñxxñ|xñxcsñÀÕrñ0]sñ˜Krñğpñ85pñ\Ioñd;pñˆñpñtrñôqñÌqñ\0jñ°„iñXÖjñğ+lñ¼Œ^ñØ®_ñ¨¬`ñd$bñLñWñ€wYñ,*Zñè‡ZñtúNñzPñØQñ0!SñÄ Kñ mJñDKñ ®KñÜ5Hñ´IñÈ&Iñô$Kñ”YCñpùBñD·Bñ tCñÈÇ6ñ¬Ã7ñŒè9ñ <ñ`Ê1ñ„Š5ñtÜ7ñtª7ñ$<'ñ¼œ'ñHÂ)ñ¤ì*ñ hñH ñ˜!ñ"ñUñ¬8ñˆnñxkñØğñì^ñôsñäŞñLñ\˜ñh0ñœÜñ[ñ¼İñ ÉñUñÜ	ñ,2ñ4»ñèäñµñüJñT+ññ8kşğX|ığ4xüğ4iüğ¬õğäjöğÔøğ ·øğ,“ëğœìğüîğüöîğÄ4êğ©êğ<›éğ jéğ¨ˆåğPwæğ\?çğ`µèğØ¾ßğlÖáğ´5âğd.ãğ´ÕÒğ¼ÙÓğÔÕğ|ÖÖğìÑğ8"Ñğ¬ÍÑğä³ĞğŒ3Ìğ€iÌğßËğ¸ÔÍğüÊÁğŞÄğ”ëÆğD±Æğ¸U¾ğXÓ¼ğÀÒ¼ğŒµ»ğÁ³ğød´ğÀ·µğDX¹ğ4bªğ`‚¬ğl®ğÌ<®ğ[¨ğ —¨ğ$©ğªğˆœğ€Ñğ0 ğà¼¡ğÈššğhàœğhdğÖœğPBğ4ñğ\ŸğØ¥ğšğ4›ğ`Wœğğçœğl¼šğ„˜ğ0™ğ\Š™ğ°ùŸğ4Ÿ ğüÍŸğÜÆŸğ¬ŠğqŸğˆ' ğqğüÚ¢ğĞ‚¡ğè¡ğä\¢ğLs§ğô¨ğ„†§ğLÖ¥ğì¤ğÔE¤ğ„>¤ğœı¥ğT¡ğøw ğÄS¡ğ¤·¡ğÜğ0çœğÀIğÈÃğøº–ğpİ–ğ¼&—ğhv˜ğÔšğ,”—ğˆ›–ğD>—ğÜ¤™ğ˜˜ğ0/˜ğøƒ—ğd—Ÿğà¾ğœèğÈïğè ğ@; ğ¤ÿŸğT¥Ÿğxúğô(ğ µğ,ôœğ © ğüJ ğ ğàeğ$b£ğpë£ğ˜4¢ğ¸¥ ğ4)§ğ(Ø¦ğhÆ¥ğÀQ¦ğ€µğœÆğì;Ÿğ<¦ ğPy£ğØ¾¡ğèßŸğÔÈğ¨ğ¨X¨ğPP§ğD§ğŸ©ğˆĞ¨ğ¨¨ğ°T¨ğøå¢ğ¡¢ğ€Š¢ğd~£ğa©ğLÚ§ğ¸Ñ¦ğ¦ğÔ‚«ğÜĞªğ’ªğLº«ğ´9¬ğÜÊ«ğà-«ğxZ¬ğÌúªğH«ğ°­ğ4­ğ¶§ğ t¨ğ¶©ğ¸©ğ,ŸğŒŠ ğR¡ğ¨t¡ğ°¤ğè¢ğ¸æ¢ğ¢ğü1¤ğ¼3£ğ¼I£ğÔß£ğà^£ğÜ¡¢ğ0+£ğ”Ó¢ğ™ğ\,œğHŸğD÷ ğl¶•ğ¯“ğ «”ğ¨”ğü`”ğX”ğ:“ğ |”ğ@›ğhd‘ğ´‡“ğ„²”ğ [”ğ ô“ğÌ“ğ’ğ<À’ğä“ğìè’ğ x’ğt8–ğ4û”ğØ/•ğlİ”ğRğtB‘ğÄ“‘ğøÑ“ğ(½‘ğØ‡‘ğ I‘ğ,Y‘ğ pğpWğ,‘ğè²ğ-‰ğT÷Šğü
+‹ğx.ğàÈ€ğPç€ğP
+ğ~ğ¬…ğ€¾ƒğ¬3‚ğğºğÔw„ğ°…ğŒ—†ğ,u…ğ(Í|ğ u}ğ”ä~ğXàğÜŸğÔğ¸n~ğ0~ğ(A~ğÈÏ~ğàu~ğ(Ã~ğğ™yğÌ€yğøhzğD{ğĞÒyğÈ0|ğœ|ğ”…{ğˆuğĞhuğ ùsğÌ?vğÄgtğ4`sğğuğTâsğL}uğø%wğtxğüöxğpfsğÀHrğŒ–rğ„érğˆåuğœêuğ˜¶tğä;uğhDuğ°™uğŒeuğ(vğ$®tğ¶tğ˜½tğt„sğ`´xğ8;yğÔ¬xğHƒvğø”{ğc{ğP1{ğt¾zğ¼ÔwğÀ	xğüxğp¦yğ¼®xğ|QxğĞwğÔ.xğ¬ vğ¼	vğøuğíuğ°$¯ÀÔö¸|±ÊÃ0ì¢Ï)åÜiI…Œ"K‰<ïû  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  € »l¸$ˆ€UPş¾ ò ØDì,øÑ|ÿø½1ÿÈX?ÿl Ì9 d×X  } Œ@› T›©ÿÑ´ÿ˜ÅÀÿ ‡ÏÿŒ~~ÿğ‚ÿô¶…ÿ(½ˆÿìŠtÿ´ vÿÜ¶vÿ<vÿü	sÿ<$sÿà-sÿ(.tÿìërÿ¸õqÿ$@qÿdvrÿP!qÿ„ÍsÿTsÿx¹sÿxfsÿìğrÿ´osÿ0rÿLârÿœ£qÿsÿ€±tÿØ^sÿÀÂqÿ_sÿ£rÿˆYrÿÜUtÿÜqÿ€’qÿ¸ëtÿèYrÿ\rqÿtÿ¼ttÿ¨àrÿåsÿ OsÿGrÿØ¦sÿ,‡sÿ4´rÿ´tÿ†tÿ0ƒuÿÄ‚sÿĞRsÿ„¾rÿT-tÿøsÿhØsÿH%sÿ`švÿ^tÿhÎtÿHÖtÿUtÿÌ tÿØsÿìuÿà´rÿĞîtÿ 9tÿèƒtÿ-sÿ`NsÿØrÿqÿ9tÿğÏrÿ *tÿ`9sÿ¸Erÿ¬*rÿ¼+sÿPırÿ,sÿ¨„sÿxàrÿ°ÖsÿØysÿLMrÿœsÿ4Zsÿ¬%rÿHtÿTİsÿlqÿlápÿ¬1sÿ´prÿÌ=rÿ8õqÿh)qÿ¸8sÿdKqÿt<qÿ ïpÿ8æqÿœ¹rÿl÷pÿTNqÿàtÿÜ sÿ$ŞsÿUrÿ¼Üpÿ€6qÿ$sÿH]rÿ”rÿdŸqÿÄ¦rÿPAqÿâoÿØËnÿT#rÿ$·qÿ@\pÿØñpÿsoÿDãoÿXoÿ !oÿ€Gqÿ$´oÿønÿ0Õoÿ4ÇpÿŒPnÿhknÿ…mÿ<9oÿ<dnÿøÄmÿtİnÿD´nÿnÿ4åmÿ09lÿd¯lÿmÿØFlÿü%lÿ˜,mÿ´ãkÿt+lÿPrkÿìrkÿddlÿ „lÿ°újÿÉjÿ ‚kÿ<miÿ`+kÿx¯jÿ$ÎlÿhökÿHÿjÿšjÿ<‹iÿô£iÿøkÿ°Ôiÿ:jÿ\ıhÿ´,kÿØiÿ ajÿŒ°hÿ]gÿÜŞgÿüªiÿ@›jÿiÿT!hÿ°¯gÿtÃhÿ@¢gÿ˜?hÿüÈhÿL7fÿÔhÿTäfÿ ~gÿØ‰hÿ¨'gÿx{fÿ¨}gÿ¨bhÿ<-hÿà•gÿ$lgÿ@€eÿ¸fÿôzhÿ„Ñhÿ¨ådÿt°gÿ¬§eÿ˜reÿ˜`fÿ€Údÿleÿüšfÿ$^cÿèlfÿ¾cÿĞØdÿ¨ÄfÿÜ&gÿhªeÿ”cdÿ4±eÿø»fÿ$›dÿXîeÿøeÿëgÿ@÷dÿ0cÿğYgÿ”ğdÿtleÿ0UfÿdÇeÿôÔeÿ¨àdÿÔÔdÿÈ€cÿ(údÿÃeÿĞugÿÀÆeÿşgÿ„ähÿ|eÿÄÖgÿXÔfÿ¬¯gÿ›hÿPAgÿœfeÿÈödÿôOeÿ™gÿì¹fÿÜyfÿphÿHhÿ”Mgÿ€fÿdÙeÿ@9hÿŒ’dÿtMfÿ\gÿ Ngÿ<ûgÿ¼·eÿĞ"iÿ$²eÿLqhÿ|fÿ@BeÿpSeÿtKfÿ<*eÿlÙgÿè7iÿtgÿü¨fÿpËfÿÁhÿähÿägÿ˜Chÿ8 eÿØ}gÿ0tiÿdhÿô–fÿØ!fÿHfÿx\gÿ¸]eÿ0úeÿùfÿ,Äfÿtgiÿ¬ciÿqgÿHÿgÿœ}hÿPhÿèzhÿœgÿ)hÿïgÿhäfÿgÿ¬êeÿ °gÿhœgÿôhhÿ,õiÿ`İgÿèÎeÿ|gÿ,wiÿh7iÿ…iÿxgÿÈiÿ`KgÿÈiÿĞ"hÿè	hÿ ³hÿdşgÿ\iÿ4hÿ,*gÿØùgÿ„Vgÿ€4hÿdÒhÿÁhÿdKhÿ€giÿäÖiÿ¤Jjÿ+iÿàkÿHiiÿjgÿävgÿ\ujÿŒajÿHEiÿLgÿ¸Ogÿ°ßhÿ>iÿıiÿ
+hÿ°Ÿgÿp?hÿèhÿ”gÿŒ>iÿŸgÿ,ÛiÿÌiÿ òjÿ€kÿ¼øiÿøakÿ<hÿ]kÿxiÿDhÿäwhÿŒéiÿT×iÿ[iÿ€†jÿl`iÿppiÿÌ“iÿ@íiÿ€ékÿ\iÿ¼¡iÿ,ökÿ<§kÿ¨|iÿkÿP)lÿØ'jÿÀ—jÿ,Ÿkÿ8:kÿPjÿœkÿÔîlÿqjÿ`jÿ´Õkÿ0Ùlÿ@bkÿğNkÿT³kÿø!nÿĞÈkÿ|nÿ ámÿÔ¤lÿ0ïlÿ@Åkÿôğlÿà`lÿh¹lÿ´nÿHlÿÓnÿ°mÿp lÿ¤³mÿôFmÿ@¼mÿ˜ølÿÎlÿ`wmÿ0eoÿĞikÿ$Ykÿtœnÿäzlÿ lÿÜlÿ,kÿ$§jÿ4®mÿ¼ámÿìåkÿÉlÿH”kÿì‡mÿdŠlÿD³kÿ•jÿÜmÿh	mÿl"lÿÄkÿ<ókÿ °mÿ°´mÿP0lÿèVmÿ(Zlÿ\[mÿÀêmÿlÚlÿd‘kÿ¨Äkÿ°ÙlÿT7mÿ¼ÆmÿÚnÿÕmÿ|ŸkÿD,oÿÔymÿ(íkÿÀ‰lÿ›mÿäÕlÿ0 mÿtÎmÿ€nÿDEmÿˆmÿÄİmÿD¾zÜ°Ø,ã€eŒ* Ä»K \ğo „à– `Í ğ­ àÑ ˆ´ p#
+ ää Xá  ¬# °ô ŒU h¤ (f Œe ˆlf X\g ¸b †c 4c ”ÿc d÷a ¸Å` xKd Œac ¸Éb Ä.` üó_ _` ”Mb 8b X_ <À_ lúa ` ´³` èÑ` hM^ ø	^ ø9` ˆ§^ ¼‰^ `^ d_ ô¨_ \L` xé^ Ü9` ÄV] ”à] 0œ^ dÏ_ Øb]  Ú[ @Ì\ p^ Ü>] °] `|\ 0é[ |±\ ¨y] Ä_\ (±Z ÀÊ\ ¬è\  MZ Ì9] Œ<] (æY 8Z \X\ È@\ ô[ ØÔZ .^ ˆãZ Äd[ À:Z ˆ:] ä[ 4óZ „I\ <œ[ ª[ \ p`[ ˆàY æZ |•[ ŒY ä%Y ÈŒZ ”ÅX À&Z È„Y @ˆ[ à~X XõY ¸/Y  ]X ÑX ´X Ğ‹X Ğõ[ ˜ƒX à~Y øZ XÚX <–Z ˜;X ÀLW ˜¡Z W 4W 0×X hX rX }W ´‘Y ¼TW X ”Z ¨}W ¬YW ø¿X \„Y €Z `<X œmW XŠV ˜Y xCX à@Y däW ØV $
+W ÔpY ìàW  ÏV HæX Œt³İT³´İÈ?´İà¤´İàb)ß`³¹İ·§İHí«İĞO$ì-øÄ í|Ê æà³Àø6´kÜwr°Ìc´FëœŞ‰àoC¸F<è@dÀ´’¨±È8–Ğ]¢²°,íÀO^d#cÄchŠnDNG`tJì‡L¨OT#9”B:Ä‡;Àq=põ.ll0„ä1°;2”†&<ó(ŒË)pµ)”˜`ÈÄd € X°ÄÉ4L0øü"¬àZD—ìYŒ,<9`¹Ü/Ğ-	>
+Ì ,ÊˆaH`´˜Ğdü ,  & ü˜ J”ïñù
+¤ëù
+t*û
+hü
+Ló
+€Áô
+Ä õ
+ØÉö
+(ï
+ğ
+ìÒğ
+tMñ
+TÔì
+Éì
+TVí
+pí
+ ÷é
+lhê
+¨ùé
+èVê
+¤yè
+tPé
+4÷è
+0*é
+èä
+ô6ä
+(„ä
+Ğå
+,Eİ
+˜ôİ
+0¸Ş
+Ì†ß
+”oÙ
+@6Ú
+”eÚ
+€«Ú
+@«Ó
+<“Ô
+¬zÕ
+4lÖ
+lxĞ
+LCĞ
+¾Ğ
+àäĞ
+ÜÎ
+ğYÎ
+dÎ
+@jÏ
+ŒYÊ
+ğ0Ê
+ÌyÊ
+X!Ë
+ÔàÃ
+°:Ä
+|“Å
+iÆ
+ ‚À
+Â
+pÃ
+tXÃ
+ÌHº
+ôÛº
+\¼
+ĞÖ¼
+È‚µ
+˜¶
+·
+tr·
+(á°
+xF±
+`æ±
+ä(²
+ØO®
+Ô»­
+HD®
+ø¾®
+T«
+˜ëª
+È÷ª
+|«
+ ²¨
+ğ²©
+À•ª
+ D«
+`–¤
+Tî¤
+Ø#¥
+0Ä¥
+4X¢
+ük¢
+L‰¢
+Pô¢
+¼Ÿ
+H
+a
+ä¨
+”ªš
+È,›
+äá›
+¬Wœ
+8à”
+P•
+–
+œD–
+î’
+ôD“
+¤-“
+ø¨’
+Äy
+ØÜ
+´‘
+xÒ‘
+„ÑŒ
+´
+
+<±
+0æ…
+ü|†
+ 4‡
+ä2ˆ
+¨Y„
+ìš„
+„×„
+ôn„
+œ
+D
+@ç€
+ „‚
+Ô{
+@}
+h÷}
+'~
+ğ7x
+8°w
+Øx
+¬çw
+(s
+°«s
+d±t
+|.v
+œşm
+°0o
+Ôp
+„p
+Œl
+8yl
+À%m
+ìŒm
+ì·f
+Ìg
+d†h
+Pi
+H<e
+Ôf
+„9f
+È>f
+àúd
+P‘e
+ì§e
+”Àe
+d…b
+Üµb
+0~c
+Lùc
+ ¨a
+„Ì`
+L6a
+tŒa
+@İb
+¬ec
+c
+Ømc
+âa
+xyb
+`…b
+´Éa
+díb
+<´b
+09b
+¸ªb
+h!d
+Ì’d
+€bd
+Ğõc
+Ä(b
+X	b
+Bb
+˜`c
+Ls`
+¨ `
+¬Ğ`
+´a
+ @^
+ô@^
+0_
+´ã^
+NZ
+4„Z
+DİZ
+|o[
+…Z
+è—Y
+ä…Y
+ˆZ
+eY
+]Y
+ğ9Y
+À!Y
+œ×[
+F[
+ti[
+l[
+Ğ¨[
+  [
+%[
+h…[
+¨¨Y
+ …Y
+¤îY
+ô;Y
+ØÅZ
+h+Z
+´fZ
+8Z
+ØéZ
+ô$[
+P½Z
+h‰Z
+X/\
+˜ó[
+Ğ¾[
+ \
+pÕW
+´ÀW
+Ô:X
+@6Y
+ŒZ
+t÷X
+_X
+ÌşW
+D [
+,g[
+dõZ
+lZ
+ˆ9[
+à [
+DZ
+ îZ
+YW
+¨kW
+°¼W
+(TX
+xZ
+ 2Y
+¤X
+@_X
+¤OZ
+¸\Z
+HóY
+ì‚Z
+,_Z
+ˆ3Z
+ÛY
+€|Z
+Ô`Y
+Y
+tZ
+ÜfZ
+ÄìV
+D¼W
+Ä*X
+$X
+˜pS
+óS
+€fT
+KT
+8U
+„'T
+µT
+¨KT
+6T
+úS
+`5T
+ô~T
+‰S
+°µS
+\«S
+|rS
+åN
+À*P
+˜.Q
+ÍQ
+9L
+(jK
+hL
+LPL
+Ğ×J
+X¼J
+ô–J
+àñJ
+I
+ ØH
+|ÊI
+J
+ˆÛI
+XºI
+ü°I
+`I
+ˆyH
+¦H
+ğµH
+ÈİH
+‡I
+ÄI
+	I
+àøH
+(nF
+,0G
+,]G
+ÔFH
+„ÁF
+”…F
+h;F
+,“F
+¬½E
+Ô¤E
+”F
+tòE
+dmB
+$C
+¤GC
+Ì;D
+üø=
+”+>
+Ü&>
+ ©>
+<î?
+è?
+A>
+B>
+X>
+ğA?
+”ã?
+ğ?
+Xë:
+(P;
+pñ;
+08<
+,«;
+è¹;
+8(;
+Àt;
+œt:
+Ò:
+ø³:
+ğğ:
+øË7
+ g8
+x:9
+HV9
+ J7
+Ô«8
+ìH8
+Œô7
+°5
+X5
+l¤4
+Dd5
+Ô'4
+€Ø3
+DÒ4
+|]4
+Lò3
+¤ã4
+Ü½5
+l6
+¸3
+ «2
+ …2
+X2
+´Ğ3
+x¶3
+`+3
+X†3
+8\3
+p|3
+„-3
+€¹3
+ğ2
+Ô2
+¸â2
+ÀW2
+4Ó3
+ô-4
+±3
+ü2
+ˆ…4
+h‰4
+¬œ4
+ Ç4
+äÉ2
+ÔÔ2
+¤3
+`ø3
+|#2
+Ä`2
+ b2
+l2
+„ø0
+¨È0
+äú0
+ôJ1
+Üñµë|‘ğ ~Ôõ`ç~û ½TÔÀ5Ö€ScØ ßÚğ>ŸÒ4¦±Ò„ÆÒ| İÒŒ:;ÒÈ EÒ8SPÒ€6\ÒL4ûÑ(Ò´’	ÒØÒ,tËÑ< ÑÑ¼¿ÖÑ´YÜÑàî¤Ñ‚©Ñì`®Ñ,³ÑX…Ñ|5‰Ñô'Ñ8J‘Ñ8LjÑ4xmÑüñpÑä8tÑ<¡RÑ ÃUÑH¡XÑ®[ÑˆQ=Ñ4/@ÑàÜBÑ,¨EÑpÍ*ÑèÙ,Ñ´)/ÑÜ†1ÑHïÑ@dÑ €Ñ,’Ñ˜÷Ñ GÑ8Ñ40Ñ|púĞ|ˆüĞ.şĞX= ÑÄºìĞqîĞÀhğĞ(]òĞôàĞÔ·áĞHXãĞàÀäĞ,ÇÓĞ˜•ÕĞì,×Ğü’ØĞ´ÈÈĞÌEÊĞ¸¹ËĞdşÌĞ$?¾ĞÀ7¿Ğ`ÀĞüFÂĞĞj´Ğô)¶Ğ„a·Ğ|¸Ğ¨ªĞ=¬ĞÜ€­Ğ0É®Ğô¡Ğpÿ¡ĞtÁ£ĞdÓ¤Ğ<%™Ğğ¶™ĞœµšĞôaœĞcĞ`7‘ĞüZ’Ğäx“Ğ¸°‡Ğ¤»ˆĞhı‰Ğ8óŠĞp¦Ğ\¢€Ğœ‡ĞœÎ‚ĞxĞx'yĞìÉyĞˆ{Ğ€øpĞèÀqĞ8ÅrĞĞ#sĞ¨jĞ÷jĞHZkĞAlĞ¬æbĞxÜcĞÜLeĞPfĞÖ[Ğœ]\Ğ]Ğ4^Ğ¨íUĞ$ÂVĞœNWĞlXĞ£OĞìPĞÜQĞXÇQĞäHĞJĞ`‹JĞ NKĞŒTCĞ€DĞŒûDĞø¡EĞ¬	=Ğ(>ĞT–>Ğƒ?Ğ
